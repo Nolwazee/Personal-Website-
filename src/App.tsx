@@ -6,23 +6,23 @@ function App() {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with React, Node.js, and PostgreSQL',
-      technologies: ['React', 'Node.js', 'PostgreSQL'],
+      title: 'Automate Birthday Wish',
+      description: 'Automated birthday wishes system using Power Automate and ChatGPT for personalized messages at DUT.',
+      technologies: ['Microsoft Power Automate', 'OpenAI', 'Microsoft Outlook'],
       github: '#',
       demo: '#'
     },
     {
-      title: 'Task Management App',
-      description: 'Collaborative task management with real-time updates',
-      technologies: ['Next.js', 'TypeScript', 'Socket.io'],
+      title: 'Automate Certificate',
+      description: 'Automated certificate generation system using Power Automate that delivers attendance certificates instantly upon form submission.',
+      technologies: ['Microsoft Power Automate', 'Microsoft Forms', 'Microsoft Outlook'],
       github: '#',
       demo: '#'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'Responsive weather dashboard with interactive maps',
-      technologies: ['Vue.js', 'Chart.js', 'Weather API'],
+      title: 'Power BI Analytics',
+      description: 'Working on it',
+      technologies: ['ABC', 'Abc', 'Abc'],
       github: '#',
       demo: '#'
     }
@@ -40,7 +40,7 @@ function App() {
             <div className="flex justify-center lg:justify-end">
               <div className="w-80 h-80 rounded-full overflow-hidden bg-gray-200 shadow-2xl">
                 <img
-                  src="IMG-20230222-WA0070.JPG"
+                  src="C:\Users\22111497\Desktop\Power Platform Website\java_Power_Platform-1\Images\IMG-20230322-WA0070.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
@@ -53,7 +53,7 @@ function App() {
                 <h1 className="text-6xl font-bold text-gray-900 mb-4">Hello</h1>
                 <h2 className="text-2xl font-semibold text-gray-800 mb-6">A Bit About Me</h2>
                 <p className="text-gray-600 leading-relaxed max-w-md">
-                I am a Power Platform Specialist passionate about creating real-life business solutions that simplify processes and improve efficiency. 
+                  I am a Power Platform Specialist passionate about creating real-life business solutions that simplify processes and improve efficiency. 
                 With expertise in Power Apps, Power Automate, Power BI, and Power Virtual Agents, I design and build applications that solve practical problems.
                 Beyond development, I mentor aspiring Power Platform makers, sharing knowledge and guiding them to create impactful solutions.
                 My work blends technical skill with a focus on delivering measurable business value.
@@ -135,8 +135,8 @@ function App() {
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">Nomfundo Manyoni</h1>
                 <p className="text-xl text-gray-600 mb-4">Power Platform Specialist</p>
                 <div className="flex justify-center space-x-6 text-sm text-gray-600">
-                  <span className="flex items-center"><Phone className="w-4 h-4 mr-1" /> 0</span>
-                  <span className="flex items-center"><Mail className="w-4 h-4 mr-1" /> nomfundomanyoni2003@gmail.com</span>
+                  <span className="flex items-center"><Phone className="w-4 h-4 mr-1" /> 123-456-7890</span>
+                  <span className="flex items-center"><Mail className="w-4 h-4 mr-1" /> alex@example.com</span>
                 </div>
               </div>
 
@@ -153,9 +153,9 @@ function App() {
                       <span className="text-sm text-gray-500">2022 - Present</span>
                     </div>
                     <ul className="list-disc list-inside text-gray-700 space-y-1">
-                      <li>Completed a Power Platform certificate program and gained hands-on experience.</li>
-                      <li>Created YouTube tutorials to teach Power Platform concepts and practical solutions.</li>
-                      <li>Mentored students, guiding them to build real-life apps with Power Apps, Power Automate, and Virtual Agents</li>
+                      <li>Led development of 5+ web applications using React and Node.js</li>
+                      <li>Improved application performance by 40% through optimization</li>
+                      <li>Mentored junior developers and conducted code reviews</li>
                     </ul>
                   </div>
                   <div>
