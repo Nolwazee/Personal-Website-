@@ -40,7 +40,7 @@ function App() {
             <div className="flex justify-center lg:justify-end">
               <div className="w-80 h-80 rounded-full overflow-hidden bg-gray-200 shadow-2xl">
                 <img
-                  src="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="IMG-20230222-WA0070.JPG"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
