@@ -40,7 +40,7 @@ function App() {
             <div className="flex justify-center lg:justify-end">
               <div className="w-80 h-80 rounded-full overflow-hidden bg-gray-200 shadow-2xl">
                 <img
-                  src="https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="IMG-20230222-WA0070.JPG"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
@@ -53,9 +53,10 @@ function App() {
                 <h1 className="text-6xl font-bold text-gray-900 mb-4">Hello</h1>
                 <h2 className="text-2xl font-semibold text-gray-800 mb-6">A Bit About Me</h2>
                 <p className="text-gray-600 leading-relaxed max-w-md">
-                  I'm a passionate full-stack developer with expertise in modern web technologies. 
-                  I love creating beautiful, functional applications that solve real-world problems 
-                  and provide exceptional user experiences.
+                I am a Power Platform Specialist passionate about creating real-life business solutions that simplify processes and improve efficiency. 
+                With expertise in Power Apps, Power Automate, Power BI, and Power Virtual Agents, I design and build applications that solve practical problems.
+                Beyond development, I mentor aspiring Power Platform makers, sharing knowledge and guiding them to create impactful solutions.
+                My work blends technical skill with a focus on delivering measurable business value.
                 </p>
               </div>
 
@@ -91,26 +92,26 @@ function App() {
           <div className="grid md:grid-cols-3 gap-8 text-center md:text-left">
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">Phone</h3>
-              <p className="text-gray-600">123-456-7890</p>
+              <p className="text-gray-600">066-105-0449</p>
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
-              <p className="text-gray-600">info@mysite.com</p>
+              <p className="text-gray-600">nomfundomanyoni2003@gmail.com</p>
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">Follow Me</h3>
               <div className="flex justify-center md:justify-start space-x-4">
-                <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+                <a href="www.linkedin.com/in/nomfundo-nolwazi-manyoni-85b438226" className="text-gray-600 hover:text-gray-900 transition-colors">
                   <Linkedin className="w-5 h-5" />
                 </a>
-                <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors">
+                <a href="https://github.com/Nolwazee" className="text-gray-600 hover:text-gray-900 transition-colors">
                   <Github className="w-5 h-5" />
                 </a>
               </div>
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-200 text-center text-sm text-gray-500">
-            © 2025 By Alex Johnson. Powered and secured by modern web technologies.
+            © 2025 By Nomfundo Manyoni. Powered and secured by modern web technologies.
           </div>
         </div>
       </footer>
@@ -131,11 +132,11 @@ function App() {
             <div className="p-6 space-y-8">
               {/* Header */}
               <div className="text-center border-b border-gray-200 pb-6">
-                <h1 className="text-3xl font-bold text-gray-900 mb-2">Alex Johnson</h1>
-                <p className="text-xl text-gray-600 mb-4">Full Stack Developer</p>
+                <h1 className="text-3xl font-bold text-gray-900 mb-2">Nomfundo Manyoni</h1>
+                <p className="text-xl text-gray-600 mb-4">Power Platform Specialist</p>
                 <div className="flex justify-center space-x-6 text-sm text-gray-600">
-                  <span className="flex items-center"><Phone className="w-4 h-4 mr-1" /> 123-456-7890</span>
-                  <span className="flex items-center"><Mail className="w-4 h-4 mr-1" /> alex@example.com</span>
+                  <span className="flex items-center"><Phone className="w-4 h-4 mr-1" /> 0</span>
+                  <span className="flex items-center"><Mail className="w-4 h-4 mr-1" /> nomfundomanyoni2003@gmail.com</span>
                 </div>
               </div>
 
@@ -146,29 +147,29 @@ function App() {
                   <div>
                     <div className="flex justify-between items-start mb-2">
                       <div>
-                        <h4 className="font-semibold text-gray-900">Senior Full Stack Developer</h4>
-                        <p className="text-gray-600">Tech Solutions Inc.</p>
+                        <h4 className="font-semibold text-gray-900">Power Platform Mentor</h4>
+                        <p className="text-gray-600">VarsityGenie</p>
                       </div>
                       <span className="text-sm text-gray-500">2022 - Present</span>
                     </div>
                     <ul className="list-disc list-inside text-gray-700 space-y-1">
-                      <li>Led development of 5+ web applications using React and Node.js</li>
-                      <li>Improved application performance by 40% through optimization</li>
-                      <li>Mentored junior developers and conducted code reviews</li>
+                      <li>Completed a Power Platform certificate program and gained hands-on experience.</li>
+                      <li>Created YouTube tutorials to teach Power Platform concepts and practical solutions.</li>
+                      <li>Mentored students, guiding them to build real-life apps with Power Apps, Power Automate, and Virtual Agents</li>
                     </ul>
                   </div>
                   <div>
                     <div className="flex justify-between items-start mb-2">
                       <div>
-                        <h4 className="font-semibold text-gray-900">Frontend Developer</h4>
-                        <p className="text-gray-600">Digital Agency Co.</p>
+                        <h4 className="font-semibold text-gray-900">Communication Manager</h4>
+                        <p className="text-gray-600">VarsityGenie</p>
                       </div>
-                      <span className="text-sm text-gray-500">2020 - 2022</span>
+                      <span className="text-sm text-gray-500">2023 - Present</span>
                     </div>
                     <ul className="list-disc list-inside text-gray-700 space-y-1">
-                      <li>Developed responsive web applications for 20+ clients</li>
-                      <li>Collaborated with design team to implement pixel-perfect UIs</li>
-                      <li>Integrated third-party APIs and payment systems</li>
+                      <li>Develop and implement internal and external communication strategies to align with organizational goals.</li>
+                      <li>Organize events, campaigns, and public engagements to promote the organization.</li>
+                      <li>Analyze feedback and communication effectiveness to continuously improve strategies.</li>
                     </ul>
                   </div>
                 </div>
@@ -180,10 +181,10 @@ function App() {
                 <div>
                   <div className="flex justify-between items-start mb-2">
                     <div>
-                      <h4 className="font-semibold text-gray-900">Bachelor of Science in Computer Science</h4>
+                      <h4 className="font-semibold text-gray-900">Microsoft Power Platform Fundamentals - PL900</h4>
                       <p className="text-gray-600">University of Technology</p>
                     </div>
-                    <span className="text-sm text-gray-500">2016 - 2020</span>
+                    <span className="text-sm text-gray-500">Sep 2022 - Nov 2022</span>
                   </div>
                 </div>
               </div>
@@ -193,20 +194,20 @@ function App() {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Skills</h3>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">Frontend</h4>
-                    <p className="text-gray-700">React, TypeScript, Next.js, Tailwind CSS, Vue.js</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Technical Skills</h4>
+                    <p className="text-gray-700">Microsoft Power Platform, TypeScript, Next.js, Tailwind CSS, Vue.js, C#, Java, Python, JavaScript, HTML, CSS, SQL, SQL Server, Azure SQL, Microsoft Dataverse</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">Backend</h4>
-                    <p className="text-gray-700">Node.js, Python, PostgreSQL, MongoDB, GraphQL</p>
+                    <h4 className="font-semibold text-gray-900 mb-2">Professional & Soft Skills</h4>
+                    <p className="text-gray-700">Mentoring & teaching, Project management & Scrum methodology, Problem-solving & analytical thinking, Teamwork & adaptability to new technologies, Digital content creation (YouTube tutorials, blog posts)</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Tools</h4>
-                    <p className="text-gray-700">Git, Docker, AWS, Figma, Jest</p>
+                    <p className="text-gray-700">Git, Docker, Figma, GitHub, Azure DevOps,AI Builder  </p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Other</h4>
-                    <p className="text-gray-700">Agile, REST APIs, CI/CD, Testing</p>
+                    <p className="text-gray-700">Arduino, Raspberry Pi, Industrial Robotics, RoboMaster coding</p>
                   </div>
                 </div>
               </div>
