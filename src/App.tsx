@@ -6,23 +6,23 @@ function App() {
 
   const projects = [
     {
-      title: 'Automate Birthday Wish',
-      description: 'Automated birthday wishes system using Power Automate and ChatGPT for personalized messages at DUT.',
-      technologies: ['Microsoft Power Automate', 'OpenAI', 'Microsoft Outlook'],
+      title: 'To-do List',
+      description: 'A simple to-do list application built with React and TypeScript.',
+      technologies: ['React', 'TypeScript', 'CSS'],
       github: '#',
       demo: '#'
     },
     {
-      title: 'Automate Certificate',
-      description: 'Automated certificate generation system using Power Automate that delivers attendance certificates instantly upon form submission.',
-      technologies: ['Microsoft Power Automate', 'Microsoft Forms', 'Microsoft Outlook'],
+      title: 'Coffee Shop',
+      description: 'A coffee shop management system built with React and TypeScript.',
+      technologies: ['HTML', 'JavaScript', 'CSS'],
       github: '#',
       demo: '#'
     },
     {
-      title: 'Power BI Analytics',
-      description: 'Working on it',
-      technologies: ['ABC', 'Abc', 'Abc'],
+      title: 'Gym Management System',
+      description: 'A gym management system built with React and TypeScript.',
+      technologies: ['MVC', 'JavaScript', 'HTML', 'CSS'],
       github: '#',
       demo: '#'
     }
@@ -40,7 +40,7 @@ function App() {
             <div className="flex justify-center lg:justify-end">
               <div className="w-80 h-80 rounded-full overflow-hidden bg-gray-200 shadow-2xl">
                 <img
-                  src="C:\Users\22111497\Desktop\Power Platform Website\java_Power_Platform-1\Images\IMG-20230322-WA0070.jpg"
+                  src="public\IMG-20230322-WA0070.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
@@ -53,10 +53,9 @@ function App() {
                 <h1 className="text-6xl font-bold text-gray-900 mb-4">Hello</h1>
                 <h2 className="text-2xl font-semibold text-gray-800 mb-6">A Bit About Me</h2>
                 <p className="text-gray-600 leading-relaxed max-w-md">
-                  I am a Power Platform Specialist passionate about creating real-life business solutions that simplify processes and improve efficiency. 
-                With expertise in Power Apps, Power Automate, Power BI, and Power Virtual Agents, I design and build applications that solve practical problems.
-                Beyond development, I mentor aspiring Power Platform makers, sharing knowledge and guiding them to create impactful solutions.
-                My work blends technical skill with a focus on delivering measurable business value.
+               I am a passionate Full Stack Developer with experience in building dynamic, scalable, and user-friendly applications. 
+               Skilled in both front-end and back-end technologies, I specialize in creating seamless digital experiences from concept to deployment. 
+               With a strong foundation in modern frameworks, databases, and cloud services, I enjoy solving complex problems, optimizing performance, and delivering clean, maintainable code. I thrive in collaborative environments and am always eager to learn new technologies to stay ahead in the ever-evolving tech landscape.
                 </p>
               </div>
 
@@ -133,10 +132,10 @@ function App() {
               {/* Header */}
               <div className="text-center border-b border-gray-200 pb-6">
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">Nomfundo Manyoni</h1>
-                <p className="text-xl text-gray-600 mb-4">Power Platform Specialist</p>
+                <p className="text-xl text-gray-600 mb-4">Full Stack Developer</p>
                 <div className="flex justify-center space-x-6 text-sm text-gray-600">
-                  <span className="flex items-center"><Phone className="w-4 h-4 mr-1" /> 123-456-7890</span>
-                  <span className="flex items-center"><Mail className="w-4 h-4 mr-1" /> alex@example.com</span>
+                  <span className="flex items-center"><Phone className="w-4 h-4 mr-1" /> 066-105-0449</span>
+                  <span className="flex items-center"><Mail className="w-4 h-4 mr-1" /> nomfundomanyoni2003@gmail.com</span>
                 </div>
               </div>
 
@@ -147,15 +146,29 @@ function App() {
                   <div>
                     <div className="flex justify-between items-start mb-2">
                       <div>
+                        <h4 className="font-semibold text-gray-900">Software Developer</h4>
+                        <p className="text-gray-600">Vending Solutions</p>
+                      </div>
+                      <span className="text-sm text-gray-500">02/2025 - 07/2025</span>
+                    </div>
+                    <ul className="list-disc list-inside text-gray-700 space-y-1">
+                      <li>Developed and programmed an automated vending machine</li>
+                      <li>Programmed the purchase interface where customers select and buy snacks and drinks.</li>
+                      <li>Built the core logic in C to handle product dispensing, payment validation, and real-time user interactions.</li>
+                      <li>Integrated software with hardware components to ensure smooth and reliable operation.</li>
+                      <li>Enhanced understanding of embedded systems and automation in real-world applications.</li>
+                    </ul>
+                  </div>
+                      <div>
                         <h4 className="font-semibold text-gray-900">Power Platform Mentor</h4>
                         <p className="text-gray-600">VarsityGenie</p>
                       </div>
                       <span className="text-sm text-gray-500">2022 - Present</span>
                     </div>
                     <ul className="list-disc list-inside text-gray-700 space-y-1">
-                      <li>Led development of 5+ web applications using React and Node.js</li>
-                      <li>Improved application performance by 40% through optimization</li>
-                      <li>Mentored junior developers and conducted code reviews</li>
+                      <li>Completed a Power Platform certificate program and gained hands-on experience.</li>
+                      <li>Created YouTube tutorials to teach Power Platform concepts and practical solutions.</li>
+                      <li>Mentored students, guiding them to build real-life apps with Power Apps, Power Automate, and Virtual Agents</li>
                     </ul>
                   </div>
                   <div>
@@ -181,10 +194,10 @@ function App() {
                 <div>
                   <div className="flex justify-between items-start mb-2">
                     <div>
-                      <h4 className="font-semibold text-gray-900">Microsoft Power Platform Fundamentals - PL900</h4>
-                      <p className="text-gray-600">University of Technology</p>
+                      <h4 className="font-semibold text-gray-900">Diploma In Applications Development</h4>
+                      <p className="text-gray-600">Durban University of Technology</p>
                     </div>
-                    <span className="text-sm text-gray-500">Sep 2022 - Nov 2022</span>
+                    <span className="text-sm text-gray-500">2022 - 2025</span>
                   </div>
                 </div>
               </div>
@@ -195,26 +208,44 @@ function App() {
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Technical Skills</h4>
-                    <p className="text-gray-700">Microsoft Power Platform, TypeScript, Next.js, Tailwind CSS, Vue.js, C#, Java, Python, JavaScript, HTML, CSS, SQL, SQL Server, Azure SQL, Microsoft Dataverse</p>
+                    <p className="text-gray-700">Front-End: HTML5, CSS, JavaScript, React.js, Tailwind CSS</p>
+                    <p className="text-gray-700">Back-End: Node.js, Express.js, Python, Django</p>
+                    <p className="text-gray-700">Database: MongoDB, MySQL, PostgreSQL</p>
+                    <p className="text-gray-700">API Development: RESTful APIs, JSON, XML</p>
+                    <p className="text-gray-700">Embedded Systems: Arduino, Raspberry Pi, Robotics Programming</p>
+                    <p className="text-gray-700">Cloud Computing: Microsoft Azure (App Services, Azure SQL, Functions, DevOps, Storage)</p>
+                    <p className="text-gray-700">Software Design Patterns: MVC, OOP, Microservices</p>
+                    <p className="text-gray-700">Other: Git, Docker, Figma, GitHub, Azure DevOps</p>
+
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Professional & Soft Skills</h4>
-                    <p className="text-gray-700">Mentoring & teaching, Project management & Scrum methodology, Problem-solving & analytical thinking, Teamwork & adaptability to new technologies, Digital content creation (YouTube tutorials, blog posts)</p>
+                    <p className="text-gray-700">Mentoring & teaching</p>
+                    <p className="text-gray-700">Project management & Scrum methodology</p>
+                    <p className="text-gray-700">Teamwork & Adaptability to new technologies</p>
+                    <p className="text-gray-700">Effective communication and presentation skills</p>
+
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Tools</h4>
-                    <p className="text-gray-700">Git, Docker, Figma, GitHub, Azure DevOps,AI Builder  </p>
+                    <p className="text-gray-700">IDEs: Visual Studio, VS Code, Eclipse, PyCharm</p>
+                    <p className="text-gray-700">Version Control: Git, GitHub</p>
+                    <p className="text-gray-700">Cloud & Deployment: Azure, AWS, Netlify</p>
+                    <p className="text-gray-700">Testing & Debugging: Postman, NUnit, Jest</p>
+                    <p className="text-gray-700">Design & Prototyping: Figma, Adobe XD</p>
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Other</h4>
-                    <p className="text-gray-700">Arduino, Raspberry Pi, Industrial Robotics, RoboMaster coding</p>
+                    <p className="text-gray-700">Microsoft Power Platform (Power Apps, Power Automate, Power BI)</p>
+                    <p className="text-gray-700">AI & Machine Learning: Azure Machine Learning, TensorFlow</p>
+                    <p className="text-gray-700">Embedded Systems: Arduino, Raspberry Pi, Robotics Programming</p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      )}
+      
+    
+    )}
 
       {/* Projects Modal */}
       {activeModal === 'projects' && (
