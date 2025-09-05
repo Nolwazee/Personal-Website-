@@ -93,11 +93,9 @@ function App() {
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">Phone</h3>
               <p className="text-gray-600">066-105-0449</p>
-              <p className="text-gray-600">066-105-0449</p>
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
-              <p className="text-gray-600">nomfundomanyoni2003@gmail.com</p>
               <p className="text-gray-600">nomfundomanyoni2003@gmail.com</p>
             </div>
             <div>
@@ -113,7 +111,6 @@ function App() {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-200 text-center text-sm text-gray-500">
-            © 2025 By Nomfundo Manyoni. Powered and secured by modern web technologies.
             © 2025 By Nomfundo Manyoni. Powered and secured by modern web technologies.
           </div>
         </div>
