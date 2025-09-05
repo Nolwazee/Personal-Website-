@@ -93,9 +93,11 @@ function App() {
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">Phone</h3>
               <p className="text-gray-600">066-105-0449</p>
+              <p className="text-gray-600">066-105-0449</p>
             </div>
             <div>
               <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
+              <p className="text-gray-600">nomfundomanyoni2003@gmail.com</p>
               <p className="text-gray-600">nomfundomanyoni2003@gmail.com</p>
             </div>
             <div>
@@ -111,6 +113,7 @@ function App() {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-200 text-center text-sm text-gray-500">
+            © 2025 By Nomfundo Manyoni. Powered and secured by modern web technologies.
             © 2025 By Nomfundo Manyoni. Powered and secured by modern web technologies.
           </div>
         </div>
@@ -135,6 +138,8 @@ function App() {
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">Nomfundo Manyoni</h1>
                 <p className="text-xl text-gray-600 mb-4">Full Stack Developer</p>
                 <div className="flex justify-center space-x-6 text-sm text-gray-600">
+                  <span className="flex items-center"><Phone className="w-4 h-4 mr-1" /> 066-105-0449</span>
+                  <span className="flex items-center"><Mail className="w-4 h-4 mr-1" /> nomfundomanyoni2003@gmail.com</span>
                   <span className="flex items-center"><Phone className="w-4 h-4 mr-1" /> 066-105-0449</span>
                   <span className="flex items-center"><Mail className="w-4 h-4 mr-1" /> nomfundomanyoni2003@gmail.com</span>
                 </div>
@@ -179,7 +184,10 @@ function App() {
                       <div>
                         <h4 className="font-semibold text-gray-900">Communication Manager</h4>
                         <p className="text-gray-600">VarsityGenie</p>
+                        <h4 className="font-semibold text-gray-900">Communication Manager</h4>
+                        <p className="text-gray-600">VarsityGenie</p>
                       </div>
+                      <span className="text-sm text-gray-500">2023 - Present</span>
                       <span className="text-sm text-gray-500">2023 - Present</span>
                     </div>
                     <ul className="list-disc list-inside text-gray-700 space-y-1">
